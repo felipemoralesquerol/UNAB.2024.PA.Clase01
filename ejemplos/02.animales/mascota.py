@@ -12,7 +12,7 @@ class Mascota():
             self.nombre, self.edad))
 
 
-mascota = Mascota("Maggie", 3)
+mascota = Mascota("Pluto", 3)
 mascota.saludar()
 otra_mascota = Mascota("Snowball", 1)
 otra_mascota.saludar()
