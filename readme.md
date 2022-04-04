@@ -3,7 +3,7 @@
 
 # Clase N. 1 - Introducción a la Programación orientada a Objetos
 
-## Ejemplos:
+## Ejemplos generales:
 
 ### Cuentas Bancarias
 ### Animales
