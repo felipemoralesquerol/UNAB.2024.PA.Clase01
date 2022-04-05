@@ -1,20 +1,30 @@
 # Pilares del POO
 
 class Animal:
+
+    # Edad es un argumento opcional
+    def __init__(self, nombre, edad = -1):
+        self.nombre = nombre
+        self.edad = edad
+
     def hablar(self):
-        pass
+        print('Soy ' + self.nombre + ' y digo .....')
 
 class Perro(Animal):
-    __texto_hablar__ = 'Guau!'
+    texto_hablar = 'Guau!'
 
     def hablar(self):
-        print(self.__texto_hablar__)    
+        print('Soy ' + super.nombre + ' y digo ' + self.texto_hablar)   
 
 class Gato(Animal):
     def hablar(self):
-        print('Miau!')   
+        print('Soy ' + self.nombre + ' y digo Miau!')
 
-for animal in Perro(), Gato():
+class Raton(Animal):
+    pass
+
+
+for animal in Perro('Spike'), Gato('Tom'), Raton('Jerry', 3): 
     animal.hablar()
 
 #print(Perro().texto_hablar)    
