@@ -13,6 +13,10 @@ print(felipe_morales.datos_saldo())
 
 
 # Operación de extracción
-felipe_morales.extraer(100000)
+felipe_morales.extraer(900000)
+print(felipe_morales.datos_saldo())
+
+#felipe_morales.reset_saldo()
+print(dir(felipe_morales))
 print(felipe_morales.datos_saldo())
 

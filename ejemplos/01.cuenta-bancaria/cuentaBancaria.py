@@ -27,4 +27,5 @@ class CuentaBancaria():
     def datos_saldo(self):
         return self.saldo
 
-     
+    def _reset_saldo(self):
+        self.saldo = 0 

@@ -1,5 +1,3 @@
-# Pilares del POO
-
 class Animal:
 
     # Edad es un argumento opcional
@@ -14,7 +12,7 @@ class Perro(Animal):
     texto_hablar = 'Guau!'
 
     def hablar(self):
-        print('Soy ' + super.nombre + ' y digo ' + self.texto_hablar)   
+        print('Soy ' + self.nombre + ' y digo ' + self.texto_hablar)   
 
 class Gato(Animal):
     def hablar(self):
@@ -26,5 +24,6 @@ class Raton(Animal):
 
 for animal in Perro('Spike'), Gato('Tom'), Raton('Jerry', 3): 
     animal.hablar()
+    print(animal.__sizeof__())
 
 #print(Perro().texto_hablar)    
