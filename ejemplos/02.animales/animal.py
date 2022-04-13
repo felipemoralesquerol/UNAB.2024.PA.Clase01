@@ -28,4 +28,3 @@ for elem in Perro('Spike'), Gato('Tom'), Raton('Jerry', 3), Gatito("Mininito"):
     elem.hablar()
    
 
-#print(Perro().texto_hablar)    
