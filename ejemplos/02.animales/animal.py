@@ -21,9 +21,10 @@ class Gato(Animal):
 class Raton(Animal):
     pass
 
+class Gatito(Gato):
+    pass
 
-for animal in Perro('Spike'), Gato('Tom'), Raton('Jerry', 3): 
-    animal.hablar()
-    print(animal.__sizeof__())
+for elem in Perro('Spike'), Gato('Tom'), Raton('Jerry', 3), Gatito("Mininito"): 
+    elem.hablar()
+   
 
-#print(Perro().texto_hablar)    
