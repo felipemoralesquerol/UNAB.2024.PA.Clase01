@@ -18,3 +18,7 @@ class ConcreteClass(AbstractClass):
 # abstractMethod is not implemented
 c = ConcreteClass()  
 c.abstractMethod()
+
+c = AbstractClass()  
+c.abstractMethod()
+
