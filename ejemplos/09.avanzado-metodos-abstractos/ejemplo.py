@@ -16,9 +16,12 @@ class ConcreteClass(AbstractClass):
 
 # The following would raise a TypeError complaining 
 # abstractMethod is not implemented
+
+# Comentar para hacer pruebas
 c = ConcreteClass()  
 c.abstractMethod()
 
+# Comentar para hacer pruebas
 c = AbstractClass()  
 c.abstractMethod()
 
